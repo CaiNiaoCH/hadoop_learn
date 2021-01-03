@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="guli-video" />
+        <module name="zookeeper" />
+        <module name="map_reduce1" />
+        <module name="flume-demo" />
+        <module name="mavendemo" />
+        <module name="hive-demo" />
+        <module name="HDFS" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flume-demo" target="1.5" />
+      <module name="guli-video" target="1.5" />
+      <module name="HDFS" target="1.5" />
+      <module name="hive-demo" target="1.5" />
+      <module name="map_reduce1" target="1.5" />
+      <module name="mavendemo" target="1.8" />
+      <module name="zookeeper" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mavendemo" options="-parameters" />
+    </option>
+  </component>
+</project>

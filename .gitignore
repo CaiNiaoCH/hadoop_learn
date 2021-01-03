@@ -1,0 +1,8 @@
+# Project exclude paths
+/flume-demo/target/
+/guli-video/target/
+/HDFS/target/
+/hive-demo/target/
+/map_reduce1/target/
+/out/
+/zookeeper/target/
